@@ -1,0 +1,147 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.item-content {
+  color: #161b3d;
+}
+
+.item-content .width-700px {
+  max-width: 700px;
+  margin: auto;
+}
+
+.item-content .post-tag {
+  font-size: 10px;
+  padding: 4px 10px;
+  margin-right: 2px;
+  border-radius: 20px;
+  background: #f4f4f4;
+}
+
+.item-content .post-tag:hover {
+  background: #2821fc;
+  color: #fff;
+  text-decoration: none;
+}
+
+.item-content-header {
+  margin: 80px auto !important;
+}
+
+.item-content-header h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+
+.item-content-header span {
+  font-weight: normal;
+}
+
+.item-content-body {
+  margin-bottom: 80px !important;
+}
+
+.item-content-body p {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.item-content-body h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.item-content-author h6 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.item-content-author .author-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 26px;
+  background: #f7f7f7;
+}
+
+.item-content-author .author-flex .width-120px {
+  width: 120px;
+}
+
+.item-content-author .author-flex .width-120px img {
+  width: 100%;
+  border-radius: 26px 0 0 26px;
+}
+
+.item-content-author .author-flex .width-residual {
+  width: calc(100% - 120px);
+  padding: 20px;
+}
+
+.item-content-author .author-flex .width-residual h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.item-content-author .author-flex .width-residual p {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.item-content-end {
+  position: relative;
+  margin: 60px auto 100px !important;
+}
+
+.item-content-end .end-icon {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 11px 15px;
+  background: #fff;
+  border-radius: 50px;
+}
+
+.item-content-end .end-icon i {
+  padding: 10px 20px;
+}
+
+.item-content-end .flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-content-end .flex-end h5 {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.item-content-end .flex-end h3 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.item-content-end .flex-end .left-end {
+  background-image: url(img/slide1.jpg);
+  padding: 60px;
+  width: 50%;
+}
+
+.item-content-end .flex-end .right-end {
+  background-image: url(img/content/look.jpg);
+  padding: 60px;
+  width: 50%;
+}
+/*# sourceMappingURL=item.css.map */

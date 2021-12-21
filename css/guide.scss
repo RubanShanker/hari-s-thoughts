@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    
+}
+$textcolor:#161b3d;
+.width-700px {
+    color: $textcolor;
+    max-width: 700px;
+    margin: 100px auto;
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: 700;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h5 {
+        font-size: 25px;
+    }
+    p {
+        font-weight: normal;
+        font-size: 19px;
+        margin: 30px 0 50px;
+    }
+    .margin__bot-6 {
+        margin-bottom: 6rem;
+    }
+    .margin__bot-2 {
+        margin-bottom: 2rem;
+    }
+    .bookmarks {
+        h6 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+        ul:first-child {
+            list-style-type: none;
+        }
+        .col-9 {
+            margin: auto 0;
+            img {
+                width: 20px;
+            }
+            ul {
+                display: flex;
+                li:first-child {
+                    list-style-type: none;
+                    margin-right: 25px;
+                    i {
+                        color: #2fa0f7;
+                    }
+                }
+            }
+        }
+        .col-3 {
+            img {
+                width: 200px;
+            }
+        }
+    }
+    .images {
+        img {
+            max-width: 100%;
+            margin-bottom: 40px;
+        }
+    }
+    .gallery {
+        &-item {
+            margin-bottom: 30px;
+            img {
+                border-radius: 10px;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+    mark {
+        background: #ff0;
+    }
+    .lists {
+        ul {
+            margin-left: 40px;
+        }
+        ol {
+            margin-left: 40px;
+        }
+        li {
+            font-weight: normal;
+            font-size: 19px;
+            margin: 10px 0;
+        }
+    }
+    table {
+        margin: auto;
+        tr {
+            border-bottom: 2px solid rgba(0,0,0,0.2);
+        }
+        th {
+            padding: 20px;
+        }
+        td {
+            padding: 20px;
+            font-weight: normal;
+        }
+    }
+}

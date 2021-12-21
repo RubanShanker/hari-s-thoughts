@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurui</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row container header">
+            <div class="col-4">
+                <a href="nurui.html"><img src="img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="col-8">
+                <ul class="menu" id="openMenu">
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="guide.html">Style Guide</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="#">Get Theme</a></li>
+                    <li class="dots">
+                        <a href="#"><i class="fas fa-ellipsis-h" onclick="openDots()"></i></a>
+                        <ul class="dots__sub" id="openDots">
+                            <li><a href="newsletter.html">Newsletter</a></li>
+                            <li><a href="newsletter.html">Authors</a></li>
+                            <li><a href="newsletter.html">Tags</a></li>
+                            <li><a href="newsletter.html">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="btn-sign">
+                        <a href="signin.html" class="btn-in">Sign in</a>
+                        <a href="signup.html" class="btn-up">Sign up</a>
+                    </li>
+                    <li><a href="#"><i class="fal fa-search" onclick="openSearch ()"></i></a></li>          
+                </ul>
+            </div>
+            <div class="bars">
+                <i id="node" class="fal fa-bars" onclick="openMenu ()"></i>
+            </div>
+        </div>
+
+        <div class="header-fixed">
+            Thoughts, stories and ideas
+        </div>
+    </header>
+
+    <div class="search-keyword" id="openSearch">
+        <div class="close-search">
+            <i class="fal fa-times" onclick="openSearch ()"></i>
+        </div>
+        <div class="row container">
+            <div class="col-5">
+              <img src="img/menu-search.jpg" alt="">
+            </div>
+            <div class="col-7 search-keyword-scroll">
+                <div>
+                    <input type="text" placeholder="Type your keywords...">
+                    <p>PLEASE ENTER AT LEAST 3 CHARACTERS</p>
+                </div>
+                <div class="row">
+                    <div class="col suggest">
+                        <h3 class="suggest-type">May we suggest a tag?</h3>
+                        <a class="suggest-key" href="#">STORY</a>
+                        <a class="suggest-key" href="#">PEOPLE</a>
+                        <a class="suggest-key" href="#">EDUCATION</a>
+                        <br>
+                        <a class="suggest-key" href="#">JOURNEY</a>
+                        <a class="suggest-key" href="#">ARCHITECTURE</a>
+                        <br>
+                        <a class="suggest-key" href="#">LIFESTYLE</a>
+                        <a class="suggest-key" href="#">NATURE</a>
+                        <a class="suggest-key" href="#">DESIGN</a>
+                        <br>
+                        <a class="suggest-key" href="#">CULTURE</a>
+                    </div>
+                    <div class="col suggest">
+                        <h3 class="suggest-type">May we suggest an author?</h3>
+                        <a class="suggest-key" href="#">PATRICIA JENKINS</a>
+                        <a class="suggest-key" href="#">JAMES BRYANT</a>
+                        <br>
+                        <a class="suggest-key" href="#">MARGARET ROBERTSON</a>
+                        <br>
+                        <a class="suggest-key" href="#">JANET ROBERTSON</a>
+                        <a class="suggest-key" href="#">SEAN HAMILTON</a>
+                        <br>
+                        <a class="suggest-key" href="#">MARCOS DURAN</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">Nurui.</a> Thoughts, stories and ideas.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured ">
+        <div class="owl-carousel owl-slide">
+            <div class="item">
+                <div class="row">
+                    <div class="col slide__img">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+                    <div class="col slide__text">
+                        <span class="slide__text-top"><i class="fas fa-star"></i> FEATURED</span>
+                        <h2>
+                            <a href="#">I'm passionate
+                                <br> 
+                                about food,the 
+                                <br>
+                                tradition of it,
+                                <br>
+                                cooking it, sharing it
+                            </a>
+                        </h2>
+                        <div class="slide__text-bot">
+                            <span>by</span>
+                            <a href="#">Sean Hamilton,</a>
+                            <a href="#">Patricia Jenkins,</a>
+                            <a href="#">James Bryant</a>
+                            <p>4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col slide__img">
+                        <img src="img/slide2.jpg" alt="">
+                    </div>
+                    <div class="col slide__text">
+                        <span class="slide__text-top"><i class="fas fa-star"></i> FEATURED</span>
+                        <h2>
+                            <a href="#">
+                                I think it's the 
+                                <br>
+                                responsibility of a 
+                                <br>
+                                designer to try to
+                                <br>
+                                break rules and 
+                                <br>
+                                barriers
+                            </a>
+                        </h2>
+                        <div class="slide__text-bot">
+                            <span>by</span>
+                            <a href="#">Janet Robertson,</a>
+                            <a href="#">James Bryant,</a>
+                            <a href="#">Marcos Duran</a>
+                            <p>4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col slide__img">
+                        <img class="slide3" src="img/slide3.jpg" alt="">
+                    </div>
+                    <div class="col slide__text">
+                        <span class="slide__text-top"><i class="fas fa-star"></i> FEATURED</span>
+                        <h2>
+                            <a href="#">
+                                The creation of
+                                <br>
+                                beauty is art
+                            </a>
+                        </h2>
+                        <div class="slide__text-bot">
+                            <span>by</span>
+                            <a href="#">Margaret Robertson</a>
+                            <span>&</span>
+                            <a href="#">James Bryant</a>
+                            <p>5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content container">
+        <div class="row row-gutter-30 size-370">
+            <div class="col-4 ">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item gradient-oran">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            The future of architecture is culture
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Patricia Jenkins</a> <span>3 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="">STOTY</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8"> 
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item content__item-bgr"> 
+                        <a href="item.html" class="link-overlay"></a> 
+                        <h3 class="relative">
+                            I'm passionate about food, the tradition of it, cooking it, sharing it
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Sean Hamilton</a> <span>and others 4 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="">LIFESTYLE</a>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+            
+        </div>          <!--hàng 1-->
+
+        <div class="row row-gutter-30 size-490">
+            <div class="col">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item gradient-gray text-black">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            Architecture belongs to culture, not to civilization
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Patricia Jenkins</a> <span>4 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">PEOPLE</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col">    
+                <div data-aos="zoom-in" data-aos-duration="700">
+                    <div class="content__item content__item-bgr look"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            Look at life with the eyes of a child
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Sean Hamilton</a> <span>4 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">PEOPLE</a>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+            <div class="col">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item content__item-bgr barrier"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            I'm passionate about food, the tradition of it, cooking it, sharing it
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Sean Hamilton</a> <span>and others 4 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">LIFESTYLE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      <!-- hàng 2-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item content__item-bgr city"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            Every day, in every city and town across the country
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Margaret Robertson</a> <span>4 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">EDUCATION</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col ">
+                <div data-aos="zoom-in" data-aos-duration="700">
+                    <div class="content__item gradient-pink ">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            Education is the transmission of civilization
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Margaret Robertson</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">EDUCATION</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item content__item-bgr pop"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            Pop culture is a reflection
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Marcos Duran</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">CULTURE</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>      <!-- hàng 3-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col-8">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item content__item-bgr creation"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            The creation of beauty is art 
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Margaret Roberson & James Bryant </a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STORY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item gradient-violet">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            The future of architecture is culture
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Patricia Jenkins</a> <span>3 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STOTY</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          <!--hàng 4-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col-4 ">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item content__item-bgr music">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            The true beauty of music is that it connects people 
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Margaret Roberson</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">PEOPLE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item building"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            I cannot look at modern buildings without thinking of historical ones 
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Patricia Jenkins & Sean Hamilton</a><span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">ARCHITECTURE</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>  <!--hàng 5-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col-8">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item content__item-bgr happen"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            Change is always happening
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Janet Robertson</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">CULTURE</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item gradient-pink">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            Everything has beauty, but not everyone sees it 
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Margaret Roberson</a> <span>and others 5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STOTY</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>  <!--hàng 6-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item content__item-bgr sky"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            The sky perfectly blended into the  beautiful landscape
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Janet Robertson</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">NATURE </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item journey"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            The journey  of a thousand miles
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Janet Robertson & Patricia Jenkins</a> <span>5 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">JOURNEY</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>    <!--hàng 7-->
+
+        <div class="row row-gutter-30 size-370">
+            <div class="col ">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item gradient-oran ">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            When you are on your way to home 
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Marcos Duran </a> <span>6 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STORY</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col">
+                <div data-aos="zoom-in" data-aos-duration="700">
+                    <div class="content__item content__item-bgr architecture"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            Architecture is a visual art, and the buildings speak for themselves
+    
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">Sean Hamilton</a> <span>6 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">ARCHITECTURE</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <div class="col">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item content__item-bgr japan"> 
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3 class="relative">
+                            I love japan, and Tokyo is my favorite city 
+                        </h3>
+                        <div class="content__item-author relative">
+                            <span>by</span> <a href="#">James Bryant</a> <span>6 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STORY</a>
+                            <span>PAID-MEMBERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--hàng 8-->
+
+        <div class="row row-gutter-30 size-370 margin-top-60">
+            <div class="col ">
+                <div data-aos="fade-right" data-aos-duration="700">
+                    <div class="content__item gradient-blue ">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            A mind cannot be independent of culture Margaret Robertson 
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">Margaret Robertson</a> <span>6 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">EDUCATION</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col ">
+                <div data-aos="fade-left" data-aos-duration="700">
+                    <div class="content__item gradient-yellow ">
+                        <a href="item.html" class="link-overlay"></a>
+                        <h3>
+                            You have to fight to reach your dream 
+                        </h3>
+                        <div class="content__item-author">
+                            <span>by</span> <a href="#">James Bryant & Janet Robertson </a> <span>6 years ago</span>
+                        </div>
+                        <div class="content__item-type">
+                            <a href="#">STORY</a>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <div class="container join">
+        <h2>Join our occasional newsletter</h2>
+        <h5>No spam ever, we promise!</h5>
+        <input type="text" placeholder="Your email address">
+        <br>
+        <a href="#">Subscribe</a>
+    </div>
+
+    <div class="container end">
+        <div class="row">
+            <div class="col">
+              <a href="#">
+                  <img class="logo-footer" src="img/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="col">
+                <ul class="list-footer">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Style guide</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Get Theme</a></li>
+                </ul>
+            </div>
+            <div class="col icon-footer">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-vimeo-v"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        © 2021 <a href="#">Nurui</a>. All Right Reserved. Published with <a href="#">Ghost</a>.
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        slide();
+        AOS.init();
+    </script>
+</body>
+</html>
