@@ -63,13 +63,14 @@
   margin: 30px 0 40px;
 }
 
+
 .center form {
   margin: 30px 0;
 }
 
 .center form input {
   text-align: center;
-  width: 80%;
+  width: 70%;
   font-size: 20px;
   border: #fff;
   border-bottom: 7px solid rgba(0, 0, 0, 0.2);
@@ -100,3 +101,19 @@
   height: 100vh;
 }
 /*# sourceMappingURL=sign.css.map */
+
+
+
+.contact-message{
+  font-weight: 700;
+  color: #92939b;
+  height: initial;
+  min-height: 100px;
+  margin-top: 2vh;
+  padding: 15px 9px;
+  resize: vertical;
+  width: 70%;
+  border: 0;
+  outline: 0;
+  background-color: #e2e5ed;
+}

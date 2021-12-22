@@ -7,6 +7,12 @@
 .container {
   max-width: 1280px;
   margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-body{
+  margin-top: 10vh;
 }
 
 .container-fluid {
@@ -235,8 +241,8 @@
 }
 
 .slide__text {
-  margin: auto 0;
-  padding-left: 80px;
+  
+  padding: 60px 0 60px 40px;
 }
 
 .slide__text-top {
@@ -293,9 +299,6 @@
   display: none;
 }
 
-.slide3 {
-  max-height: 420px;
-}
 
 .gradient-oran {
   background-image: linear-gradient(45deg, #e77842, #f7c068);
