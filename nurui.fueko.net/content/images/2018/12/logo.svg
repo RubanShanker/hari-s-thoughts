@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="747.894" height="186.5" viewBox="0 0 747.894 186.5">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2 {
+        fill: #1c1f3d;
+        font-size: 230px;
+        font-family: HiddenCoast, Hidden Coast;
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect width="747.894" height="186.5"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <text id="Hari_s_Thoughts" data-name="Hari&apos;s Thoughts" class="cls-2" transform="translate(0 146)"><tspan x="0" y="0">Hari&apos;s Thoughts</tspan></text>
+  </g>
+</svg>
