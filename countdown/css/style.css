@@ -1216,9 +1216,11 @@ svg.dark_digit{
 }
 
 
+.global-button:hover {
+    background-color: #c5a35b; 
+    color: white;
 
-
-
+}
 
 .global-button {
     font-size: 14px;
@@ -1266,3 +1268,5 @@ svg.dark_digit{
     outline: 0;
     box-shadow: none;
 }
+
+
